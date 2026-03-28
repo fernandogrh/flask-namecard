@@ -1,7 +1,12 @@
-# Personal Name Card Website (Flask)
+# Personal Name Card Website (Flask – Early Project)
 
 ### This project is a personal online name card built using **Flask**, HTML, and CSS.
 
+## 📌 Note on Project Scope
+
+This was one of my earliest Flask projects, built to understand how Flask serves templates and static files.
+
+The visual design is based on the **HTML5 UP “Identity” template**, which I integrated into a Flask backend and customized with my own content and structure.
 
 ## 🚀 Features
 
@@ -33,10 +38,9 @@
     ├── server.py
     ├── requirements.txt
     ├── README.md
-    │
+    ├── .gitignore
     ├── templates/
     │   └── index.html
-    │
     └── static/
         ├── assets/
         └── images/
@@ -44,7 +48,7 @@
 
 1. Clone the repository:
 
-        git clone https://github.com/fernandogrh/flask-namecard
+        git clone https://github.com/fernandogrh/flask-namecard.git
         cd flask-namecard
 
 2. Create virtual environment (optional but recommended):
@@ -73,6 +77,14 @@ Design by HTML5 UP
 https://html5up.net
 
 Used under the Creative Commons Attribution 3.0 License.
+
+## 🧠 What I Learned
+
+- How Flask renders HTML templates using `render_template`
+- How to structure `templates/` and `static/` folders
+- How to integrate a front-end template into a Python backend
+- How to serve a simple web application locally
+- Basic understanding of web app structure with Flask
 
 ## Author
 
